@@ -8,6 +8,11 @@
 </template>
 
 <script>
+export default {
+  mounted() {
+    console.log(`${this.$route.query.test}`);
+  },
+};
 </script>
 
 <style>
